@@ -20,7 +20,7 @@ header {
   justify-content: space-between;
   width: 960px;
   margin: auto;
-  padding: 40px 0; }
+  padding: 5px 0; }
 
 @media (max-width: 768px) {
   header {
@@ -55,7 +55,6 @@ header .sp-navi-li {
     display: flex;
     padding: 12px 10px; }
   header .sp-navi-li .sp-navi-item-toggle {
-    display: flex;
     padding: 12px 10px; }
   header .sp-navi-li .p-menu-toggle {
     display: none;
@@ -94,8 +93,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    box-sizing: border-box;
-    padding: 0 10px; } }
+    box-sizing: border-box; } }
 .main {
   width: 700px; }
 
@@ -259,7 +257,9 @@ td {
 
 @media (max-width: 768px) {
   .p-price {
-    padding: 0 50px; } }
+    width: 100%;
+    text-align: center;
+    padding: 0; } }
 .add_to_cart {
   width: 40%;
   padding-top: 19px; }
@@ -267,7 +267,9 @@ td {
 @media (max-width: 768px) {
   .add_to_cart {
     width: 100%;
-    text-align: center; } }
+    text-align: center; }
+    .add_to_cart img {
+      width: 100%; } }
 .heading01 {
   border-bottom: 1px solid #e3e8cf;
   padding: 20px 0 19px 0;
@@ -315,15 +317,20 @@ td {
   .border-bottom p {
     padding: 0 60px; }
 
+@media (max-width: 768px) {
+  .border-bottom p {
+    width: 50%; } }
 p .quantity {
   border: 1px solid #e3e8cf; }
 
 @media (max-width: 768px) {
   p .quantity {
-    margin: 0 50px 0 0; } }
+    margin: 0;
+    width: 90%; } }
 .top-image {
   width: 100%;
-  height: 180px; }
+  height: 180px;
+  margin: 10px 0; }
 
 @media (max-width: 768px) {
   .top-image {
@@ -387,9 +394,11 @@ h2 {
     color: #fff;
     font-weight: bold;
     text-align: center;
-    width: 10%;
-    padding: 5px 0;
-    margin: 10px 0; }
+    width: 121px;
+    padding: 10px 0;
+    margin: 10px 0;
+    font-size: 1.4rem;
+    letter-spacing: 0.1rem; }
 
 @media (max-width: 768px) {
   .page {
@@ -442,14 +451,13 @@ h3 {
 dt {
   color: #887f69;
   margin: auto;
-  padding: 13px 0; }
+  padding: 5px 0; }
 
 dd {
   margin: auto; }
 
 .side-menu {
-  width: 220px;
-  margin: 10px; }
+  width: 220px; }
 
 @media (max-width: 768px) {
   .side-menu {
@@ -457,7 +465,7 @@ dd {
     box-sizing: border-box; } }
 .search {
   padding: 20px;
-  margin: 10px 0;
+  margin: 10px 0 10px 0;
   background-color: #fff; }
 
 @media (max-width: 768px) {
@@ -494,7 +502,7 @@ dd {
 
 @media (max-width: 768px) {
   #search-box {
-    width: 300px; }
+    width: 97%; }
     #search-box .search-input {
       width: 98%; } }
 .accordion-menu {
